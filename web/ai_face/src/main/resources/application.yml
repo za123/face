@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: ai_face
+  datasource:
+    url: jdbc:mysql://localhost:3306/ai_face
+    password: 2941@root
+    username: root
+  servlet:
+    multipart:
+      max-file-size: 20MB
+server:
+  tomcat:
+    max-swallow-size: 100MB
+  port: 8080
+
+baidu:
+  APP_ID: 18189103
+  API_KEY: 35fBMPMGmu9qTuCEHgC5eafr
+  SECRET_KEY: bFV5GQv1eGwQw8DtqhYK2cA9cyzKh3Qz
